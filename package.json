@@ -1,0 +1,31 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "prisma:mongodb": "npx prisma generate --schema=./schemas/mongodb.prisma"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TariusVAR/test.git"
+  },
+  "keywords": [
+    "1111"
+  ],
+  "author": "Z",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TariusVAR/test/issues"
+  },
+  "homepage": "https://github.com/TariusVAR/test#readme",
+  "dependencies": {
+    "@prisma/client": "^4.15.0",
+    "dotenv": "^16.1.4",
+    "fastify": "^4.18.0",
+    "mongodb": "^5.6.0",
+    "prisma": "^4.15.0"
+  }
+}
